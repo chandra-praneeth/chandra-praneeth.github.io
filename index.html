@@ -8,23 +8,64 @@
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>    
-
-	<script type="text/javascript" src="card.js"></script>    
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>    
+	<script src="http://materializecss.com/bin/materialize.js"></script>
+	<!--script src="http://materializecss.com/js/jquery.timeago.min.js"></script>
+	<script src="http://materializecss.com/js/prism.js"></script>
+	<script src="http://materializecss.com/jade/lunr.min.js"></script-->
+	<script src="http://materializecss.com/js/init.js"></script>	
+	<script type="text/javascript" src="card.js"></script>  
+	<style>
+		@media(min-width: 600px) { 
+		  .card-content {
+		    display: flex;/*for equal height of child divs display:flex */
+		  }		  
+		}
+	</style>
 </head>
 <body>
-	<div class="container valign-wrapper" style="height: 100%;">
-		<div class = "row valign center">		
-			<div class="col push-s3 s6 card hoverable">
-				<div class="row card-content" >
-					<div class="col s12 m6 valign-wrapper" style="height: 200px;">
+	<div class="fixed-action-btn horizontal" >	
+	    <a class="btn-floating btn-large red"><i class="large material-icons">perm_identity</i></a>
+	    <ul>
+	      <li><a class="waves-effect waves-red btn-flat" href="http://codeforces.com/profile/arthapenn">Codeforces</a></li>
+	      <li><a class="waves-effect waves-yellow btn-flat" href="https://github.com/chandra-praneeth">Github</a></li>
+	      <li><a class="waves-effect waves-teal btn-flat" href="https://in.linkedin.com/in/chandrapraneeth">Linkedin</a></li>	      
+	    </ul>
+  	</div>			  				
+	<div class="container valign-wrapper" style="height: 100%;"> 		
+		<div class = "row valign center"><!-- Center card-->
+			<div class="col push-s3 s6 card hoverable z-depth-0"> 
+				<div class="row card-content"> 
+					<div class="col s12 m6 valign-wrapper">
 						 <img  src="https://avatars2.githubusercontent.com/u/7873657?v=3&s=460" alt="" class=" valign center circle responsive-img"></div>
-					<div class="col s12 m6 valign-wrapper" style="height: 200px;">					
+					<div class="col s12 m6  valign-wrapper">					
 						<h6 class="valign center"><b>Praneeth</b>, Backend dev and Functional programming enthusiast.</h6>
 					</div> 
 				</div>
-			</div>
+			</div>			
 		</div>					
-	</div>		 	 
+	</div>	
+</body>
+</html> class="large material-icons">perm_identity</i></a>
+	    <ul>
+	      <li><a class="waves-effect waves-red btn-flat" href="http://codeforces.com/profile/arthapenn">Codeforces</a></li>
+	      <li><a class="waves-effect waves-yellow btn-flat" href="https://github.com/chandra-praneeth">Github</a></li>
+	      <li><a class="waves-effect waves-teal btn-flat" href="https://in.linkedin.com/in/chandrapraneeth">Linkedin</a></li>	      
+	    </ul>
+  	</div>			  				
+	<div class="container valign-wrapper" style="height: 100%;"> 		
+		<div class = "row valign center"><!-- Center card-->
+			<div class="col push-s3 s6 card hoverable z-depth-0"> 
+				<div class="row card-content"> 
+					<div class="col s12 m6 valign-wrapper">
+						 <img  src="https://avatars2.githubusercontent.com/u/7873657?v=3&s=460" alt="" class=" valign center circle responsive-img"></div>
+					<div class="col s12 m6  valign-wrapper">					
+						<h6 class="valign center"><b>Praneeth</b>, Backend dev and Functional programming enthusiast.</h6>
+					</div> 
+				</div>
+			</div>			
+		</div>					
+	</div>	
+</body>
 </body>
 </html>
