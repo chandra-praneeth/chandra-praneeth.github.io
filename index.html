@@ -10,36 +10,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>    
 
-
 	<script type="text/javascript" src="card.js"></script>    
-
 </head>
 <body>
-	<div class="container">		
-	<div class="col s12 m8 offset-m2 l6 offset-l3">			
-		<div class="card-panel grey lighten-5 z-depth-1">
-			<div class="row valign-wrapper">
-			 <div class="col s2">
-				 <img src="https://avatars2.githubusercontent.com/u/7873657?v=3&s=460" alt="" class="circle responsive-img">
-			 </div>
-			 <div class="col s10">
-				 <span class="blue-text">
-					 <b>Praneeth</b>, Backend dev and Functional programming enthusiast.
-				 </span>
-			 </div> 
+	<div class="container valign-wrapper" style="height: 100%;">
+		<div class = "row valign center">		
+			<div class="col push-s3 s6 card hoverable">
+				<div class="row card-content" >
+					<div class="col s12 m6 valign-wrapper" style="height: 200px;">
+						 <img  src="https://avatars2.githubusercontent.com/u/7873657?v=3&s=460" alt="" class=" valign center circle responsive-img"></div>
+					<div class="col s12 m6 valign-wrapper" style="height: 200px;">					
+						<h6 class="valign center"><b>Praneeth</b>, Backend dev and Functional programming enthusiast.</h6>
+					</div> 
+				</div>
 			</div>
-		</div>
-		<div class="row">	 				 
-			<div id = "cards" class = "col s12"></div> 
-	 	</div>
-	 </div>
-	 </div>
-	<script type="text/javascript">
-		
-		$("#cards").append(getCard(1,"Functional",["Haskell","Clojure","F#"],"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","http://lipsum.com/"));
-		$("#cards").append(getCard(2,"Imperative",["C","C++","Python"],"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","http://lipsum.com/"));
-		
-		$("#cards").append(getCard(3,"Logical",["Lisp","Prolog","Scheme"],"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","http://lipsum.com/"));		
-	</script>
+		</div>					
+	</div>		 	 
 </body>
 </html>
