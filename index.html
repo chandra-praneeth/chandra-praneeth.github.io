@@ -12,7 +12,7 @@
     <script src="http://materializecss.com/bin/materialize.js"></script>
     <script src="http://materializecss.com/js/init.js"></script>    
     <style>
-        @media(min-width: 365px) { 
+        @media(min-width: 600px) { /* tablet and desktop devices*/
           .card-content {
             display: flex;/*for equal height of child divs display:flex */
           }
@@ -20,12 +20,12 @@
                 height: 60%; /* adjust height of container for large screens*/
             }
         }
-        @media(max-width: 900px){
+        @media(max-width: 600px){ /* mobile devices*/
             .parallax-container{
-                height: 40%;
+                height: 50%;
             }
-            .circle{
-                width: 50%;    
+            .circle{ /* center the image*/
+                width: 30%;    
                 margin-left: auto;
                 margin-right: auto;
             }
@@ -34,7 +34,7 @@
 </head>
 <body>
     <main>
-        <div class="fixed-action-btn hide-on-med-and-up" >  <!-- vertical for small screens-->
+        <div class="fixed-action-btn hide-on-med-and-up" >  <!-- vertical fab for small screens-->
             <a class="btn-floating btn-large red"><i class="large material-icons">perm_identity</i></a>
             <ul>
               <li ><a class="waves-effect waves-red btn-flat" href="http://codeforces.com/profile/arthapenn">Codeforces</a></li>
@@ -42,7 +42,7 @@
               <li><a class="waves-effect waves-teal btn-flat" href="https://in.linkedin.com/in/chandrapraneeth">Linkedin</a></li>         
             </ul>
         </div>                          
-        <div class="fixed-action-btn horizontal hide-on-small-only" >   <!-- horizontal for medium and up -->
+        <div class="fixed-action-btn horizontal hide-on-small-only" >   <!-- horizontal fab for medium and up -->
             <a class="btn-floating btn-large red"><i class="large material-icons">perm_identity</i></a>
             <ul>
               <li><a class="waves-effect waves-red btn-flat" href="http://codeforces.com/profile/arthapenn">Codeforces</a></li>
