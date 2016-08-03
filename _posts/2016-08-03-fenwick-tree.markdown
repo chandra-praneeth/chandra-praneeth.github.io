@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Fenwick Tree
 layout: post
 ---
@@ -33,8 +33,4 @@ BIT[i] = A[i - i &(-i)+1...i]
     }
   }
 
- .  
-
-
-
-
+ .
